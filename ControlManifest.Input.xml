@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ActionBTN" constructor="callbtn" version="0.0.1" display-name-key="callbtn" description-key="callbtn description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="btnValue" display-name-key="btnValue_Display_Key" description-key="btnValue_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="btnLabel" display-name-key="btnLabel_Display_Key" description-key="btnLabel_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/BIDS_ButtonControl.css" order="1" />
+      <resx path="strings/BIDS_ButtonControl.1033.resx" version="1.0.0" />
+    </resources>
+  </control>
+</manifest>
